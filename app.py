@@ -5,7 +5,7 @@ import os
 from PyPDF2 import PdfReader
 
 # Set your Gemini API key
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyCtwToVA60UQpJpa1BrHHGxxoxcoSNBBbM"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyBbFHJfJcaH-Br5Q98cMSZ7hvL7KTfnnN4"))
 
 # Function to extract text from PDF
 def extract_text_from_pdf(uploaded_file):
